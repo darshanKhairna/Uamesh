@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(190, 189, 189);
+    padding: 3%;
+}
+.container{
+    background-color: white;
+    padding-top: 1%;
+}
+h2{
+    margin-left: 15px;
+    
+}
+.img_container{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 190px;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.gridbox>div{
+    border: 1px solid grey;
+    padding: 5%;
+    
+}
+.gridbox>div:hover{
+box-shadow: 1px 1px 5px grey;
+}
+h3{
+    color: green;
+}
+p{
+    color: grey;
+}

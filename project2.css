@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(152, 188, 140);
+    margin: 20px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+
+p{
+    color: rgb(5, 41, 42);
+    text-align: center;
+}
+
+.tutorial{
+    width: 75em;
+    border: 5px solid;
+    padding: 7px 11px;
+    text-align: center;
+}
+section
+{
+    width: 60%;
+    text-align: left;
+    margin: auto;
+}
+li{
+    color:rgb(5, 41, 42);
+}
+.tutorial1{
+    width: 75em;
+    border: 1px solid;
+    padding: 7px 11px;
+}

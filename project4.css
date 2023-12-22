@@ -1,0 +1,48 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 4%;
+}
+.flex-container div{
+    padding: 2%;
+    box-shadow: 2px 2px 20px grey;
+    width: 23%;
+}
+h1{
+    text-align: center;
+}
+hr{
+border: none;
+    background-color: green;
+    width: 90%;
+    height: 3px;
+    margin-top: 30px;
+}
+p{
+    color: grey;
+    text-align: justify;
+}
+h1,h2{
+    color: rgb(14, 111, 114);
+}
+button{
+    background-color: rgb(14, 111, 114);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(23, 128, 208);
+}
+h2:hover{
+    color: rgb(23, 128, 208);
+
+}
